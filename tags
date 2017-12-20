@@ -1,0 +1,462 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+ALL	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^            const ALL = TOP.bits | RIGHT.bits | BOTTOM.bits | LEFT.bits,$/;"	c
+AlternateScreen	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^pub struct AlternateScreen<W: Write> {$/;"	s
+AnsiValue	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^pub struct AnsiValue(pub u8);$/;"	s
+AsyncReader	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/async.rs	/^pub struct AsyncReader {$/;"	s
+Axis	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^pub struct Axis<'a> {$/;"	s
+BOTTOM	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^            const BOTTOM = 0b0001000,$/;"	c
+BOTTOM_LEFT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const BOTTOM_LEFT: &'static str = "└";$/;"	c
+BOTTOM_RIGHT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const BOTTOM_RIGHT: &'static str = "┘";$/;"	c
+BRAILLE_BLANK	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^pub const BRAILLE_BLANK: char = '⠀';$/;"	c
+BRAILLE_OFFSET	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^pub const BRAILLE_OFFSET: u16 = 0x2800;$/;"	c
+Backend	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/mod.rs	/^pub trait Backend {$/;"	t
+BarChart	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^pub struct BarChart<'a> {$/;"	s
+Bg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^pub struct Bg<C: Color>(pub C);$/;"	s
+Block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/block.rs	/^pub struct Block<'a> {$/;"	s
+Buffer	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^pub struct Buffer {$/;"	s
+CONTROL_SEQUENCE_TIMEOUT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^pub const CONTROL_SEQUENCE_TIMEOUT: u64 = 100;$/;"	c
+Canvas	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^pub struct Canvas<'a, F>$/;"	s
+Cell	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^pub struct Cell {$/;"	s
+Chart	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^pub struct Chart<'a> {$/;"	s
+ChartLayout	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^struct ChartLayout {$/;"	s
+Color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^pub trait Color {$/;"	t
+Color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/style.rs	/^pub enum Color {$/;"	g
+Context	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^pub struct Context<'a> {$/;"	s
+DOT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^pub const DOT: &'static str = "•";$/;"	c
+DOTS	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^pub const DOTS: [[u16; 2]; 4] = [[0x0001, 0x0008],$/;"	c
+Dataset	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^pub struct Dataset<'a> {$/;"	s
+DetectColors	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^pub trait DetectColors {$/;"	t
+DetectCursorPos	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^pub trait DetectCursorPos {$/;"	t
+Direction	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^pub enum Direction {$/;"	g
+Down	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^pub struct Down(pub u16);$/;"	s
+Down	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/scroll.rs	/^pub struct Down(pub u16);$/;"	s
+ENTER_MOUSE_SEQUENCE	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^const ENTER_MOUSE_SEQUENCE: &'static str = csi!("?1000h\\x1b[?1002h\\x1b[?1015h\\x1b[?1006h");$/;"	c
+EXIT_MOUSE_SEQUENCE	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^const EXIT_MOUSE_SEQUENCE: &'static str = csi!("?1006l\\x1b[?1015l\\x1b[?1002l\\x1b[?1000l");$/;"	c
+Element	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^struct Element {$/;"	s
+Event	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/event.rs	/^pub enum Event {$/;"	g
+Events	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^pub struct Events<R>  {$/;"	s
+EventsAndRaw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^pub struct EventsAndRaw<R> {$/;"	s
+FIVE_EIGHTHS	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const FIVE_EIGHTHS: &'static str = "▅";$/;"	c
+FIVE_EIGHTHS	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const FIVE_EIGHTHS: &'static str = "▋";$/;"	c
+FULL	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const FULL: &'static str = "█";$/;"	c
+Fg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^pub struct Fg<C: Color>(pub C);$/;"	s
+Gauge	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/gauge.rs	/^pub struct Gauge<'a> {$/;"	s
+Goto	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^pub struct Goto(pub u16, pub u16);$/;"	s
+Grid	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^struct Grid {$/;"	s
+Group	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^pub struct Group {$/;"	s
+HALF	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const HALF: &'static str = "▄";$/;"	c
+HALF	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const HALF: &'static str = "▌";$/;"	c
+HORIZONTAL	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const HORIZONTAL: &'static str = "─";$/;"	c
+HORIZONTAL_DOWN	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const HORIZONTAL_DOWN: &'static str = "┬";$/;"	c
+HORIZONTAL_UP	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const HORIZONTAL_UP: &'static str = "┴";$/;"	c
+IntoIter	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/line.rs	/^    type IntoIter = LineIterator;$/;"	T
+IntoIter	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/map.rs	/^    type IntoIter = PointsIterator<'a>;$/;"	T
+IntoIter	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^    type IntoIter = PointsIterator<'a>;$/;"	T
+IntoRawMode	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^pub trait IntoRawMode: Write + Sized {$/;"	t
+IsMinusOne	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/mod.rs	/^trait IsMinusOne {$/;"	t
+Item	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    type Item = Result<(Event, Vec<u8>), io::Error>;$/;"	T
+Item	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    type Item = Result<Event, io::Error>;$/;"	T
+Item	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    type Item = Result<Key, io::Error>;$/;"	T
+Item	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/line.rs	/^    type Item = (f64, f64);$/;"	T
+Item	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/map.rs	/^    type Item = (f64, f64);$/;"	T
+Item	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^    type Item = (f64, f64);$/;"	T
+Item	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    type Item = (&'a str, Style);$/;"	T
+Key	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/event.rs	/^pub enum Key {$/;"	g
+Keys	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^pub struct Keys<R> {$/;"	s
+LEFT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^            const LEFT = 0b00010000,$/;"	c
+Label	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^pub struct Label<'a> {$/;"	s
+Layer	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^struct Layer {$/;"	s
+LayoutEntry	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^pub struct LayoutEntry {$/;"	s
+Left	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^pub struct Left(pub u16);$/;"	s
+Line	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/line.rs	/^pub struct Line {$/;"	s
+LineIterator	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/line.rs	/^pub struct LineIterator {$/;"	s
+List	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^pub struct List<'a> {$/;"	s
+Map	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/map.rs	/^pub struct Map {$/;"	s
+MapResolution	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/map.rs	/^pub enum MapResolution {$/;"	g
+Marker	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^pub enum Marker {$/;"	g
+Modifier	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/style.rs	/^pub enum Modifier {$/;"	g
+MouseButton	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/event.rs	/^pub enum MouseButton {$/;"	g
+MouseEvent	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/event.rs	/^pub enum MouseEvent {$/;"	g
+MouseTerminal	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^pub struct MouseTerminal<W: Write> {$/;"	s
+NONE	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^            const NONE  = 0b00000001,$/;"	c
+ONE_EIGHTH	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const ONE_EIGHTH: &'static str = "▁";$/;"	c
+ONE_EIGHTH	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const ONE_EIGHTH: &'static str = "▏";$/;"	c
+ONE_QUATER	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const ONE_QUATER: &'static str = "▂";$/;"	c
+ONE_QUATER	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const ONE_QUATER: &'static str = "▎";$/;"	c
+Paragraph	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^pub struct Paragraph<'a> {$/;"	s
+Parser	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^struct Parser<'a, T>$/;"	s
+Points	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^pub struct Points<'a> {$/;"	s
+PointsIterator	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^pub struct PointsIterator<'a> {$/;"	s
+RIGHT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^            const RIGHT = 0b00000100,$/;"	c
+RawTerminal	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^pub struct RawTerminal<W: Write> {$/;"	s
+Rect	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^pub struct Rect {$/;"	s
+Reset	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^pub struct Reset;$/;"	s
+Rgb	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^pub struct Rgb(pub u8, pub u8, pub u8);$/;"	s
+Right	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^pub struct Right(pub u16);$/;"	s
+RustboxBackend	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^pub struct RustboxBackend {$/;"	s
+SEVEN_EIGHTHS	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const SEVEN_EIGHTHS: &'static str = "▇";$/;"	c
+SEVEN_EIGHTHS	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const SEVEN_EIGHTHS: &'static str = "▉";$/;"	c
+SelectableList	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^pub struct SelectableList<'a> {$/;"	s
+Shape	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^pub trait Shape<'a> {$/;"	t
+Size	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^pub enum Size {$/;"	g
+Sparkline	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/sparkline.rs	/^pub struct Sparkline<'a> {$/;"	s
+Style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/style.rs	/^pub struct Style {$/;"	s
+THREE_EIGHTHS	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const THREE_EIGHTHS: &'static str = "▃";$/;"	c
+THREE_EIGHTHS	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const THREE_EIGHTHS: &'static str = "▍";$/;"	c
+THREE_QUATERS	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const THREE_QUATERS: &'static str = "▆";$/;"	c
+THREE_QUATERS	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const THREE_QUATERS: &'static str = "▊";$/;"	c
+TIOCGWINSZ	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/size.rs	/^pub const TIOCGWINSZ: usize = 0x00005413;$/;"	c
+TIOCGWINSZ	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/size.rs	/^pub const TIOCGWINSZ: usize = 0x40087468;$/;"	c
+TOP	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^            const TOP   = 0b00000010,$/;"	c
+TOP_LEFT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const TOP_LEFT: &'static str = "┌";$/;"	c
+TOP_RIGHT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const TOP_RIGHT: &'static str = "┐";$/;"	c
+Table	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^pub struct Table<'a> {$/;"	s
+Tabs	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/tabs.rs	/^pub struct Tabs<'a> {$/;"	s
+Target	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    type Target = W;$/;"	T
+Target	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^    type Target = W;$/;"	T
+Target	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^    type Target = W;$/;"	T
+TermRead	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^pub trait TermRead {$/;"	t
+TermReadEventsAndRaw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^pub trait TermReadEventsAndRaw {$/;"	t
+TermSize	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/size.rs	/^struct TermSize {$/;"	s
+Terminal	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^pub struct Terminal<B>$/;"	s
+TermionBackend	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^pub struct TermionBackend {$/;"	s
+ToAlternateScreen	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^pub struct ToAlternateScreen;$/;"	s
+ToMainScreen	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^pub struct ToMainScreen;$/;"	s
+Up	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^pub struct Up(pub u16);$/;"	s
+Up	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/scroll.rs	/^pub struct Up(pub u16);$/;"	s
+VERTICAL	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const VERTICAL: &'static str = "│";$/;"	c
+VERTICAL_LEFT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const VERTICAL_LEFT: &'static str = "┤";$/;"	c
+VERTICAL_RIGHT	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^    pub const VERTICAL_RIGHT: &'static str = "├";$/;"	c
+WORLD_HIGH_RESOLUTION	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/world.rs	/^pub static WORLD_HIGH_RESOLUTION: [(f64, f64); 5125] =$/;"	c
+WORLD_LOW_RESOLUTION	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/world.rs	/^pub static WORLD_LOW_RESOLUTION: [(f64, f64); 1166] = [(-92.32, 48.24),$/;"	c
+Widget	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^pub trait Widget {$/;"	t
+area	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn area(&self) -> &Rect {$/;"	f
+area	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn area(&self) -> u16 {$/;"	f
+async_stdin	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/async.rs	/^pub fn async_stdin() -> AsyncReader {$/;"	f
+available_colors	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^    fn available_colors(&mut self) -> io::Result<u16> {$/;"	f
+available_colors	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^    fn available_colors(&mut self) -> io::Result<u16>;$/;"	f
+backend	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn backend(&self) -> &B {$/;"	f
+backend_mut	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn backend_mut(&mut self) -> &mut B {$/;"	f
+background	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^    fn background(&self, area: &Rect, buf: &mut Buffer, color: Color) {$/;"	f
+background_color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    pub fn background_color(&'a mut self, color: Color) -> &mut Canvas<'a, F> {$/;"	f
+bar	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^pub mod bar {$/;"	m
+bar_gap	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    pub fn bar_gap(&'a mut self, gap: u16) -> &mut BarChart<'a> {$/;"	f
+bar_width	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    pub fn bar_width(&'a mut self, width: u16) -> &mut BarChart<'a> {$/;"	f
+bg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/style.rs	/^    pub fn bg(mut self, color: Color) -> Style {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^pub mod block {$/;"	m
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    pub fn block(&'a mut self, block: Block<'a>) -> &mut BarChart<'a> {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    pub fn block(&mut self, block: Block<'a>) -> &mut Canvas<'a, F> {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn block(&'a mut self, block: Block<'a>) -> &mut Chart<'a> {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/gauge.rs	/^    pub fn block(&mut self, block: Block<'a>) -> &mut Gauge<'a> {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    pub fn block(&'a mut self, block: Block<'a>) -> &mut List<'a> {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    pub fn block(&'a mut self, block: Block<'a>) -> &mut SelectableList<'a> {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    pub fn block(&'a mut self, block: Block<'a>) -> &mut Paragraph<'a> {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/sparkline.rs	/^    pub fn block(&mut self, block: Block<'a>) -> &mut Sparkline<'a> {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^    pub fn block(&'a mut self, block: Block<'a>) -> &mut Table<'a> {$/;"	f
+block	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/tabs.rs	/^    pub fn block(&mut self, block: Block<'a>) -> &mut Tabs<'a> {$/;"	f
+border	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^pub mod border {$/;"	m
+border_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/block.rs	/^    pub fn border_style(mut self, style: Style) -> Block<'a> {$/;"	f
+borders	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/block.rs	/^    pub fn borders(mut self, flag: border::Flags) -> Block<'a> {$/;"	f
+bottom	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    fn bottom(&self) -> Expression {$/;"	f
+bottom	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn bottom(&self) -> u16 {$/;"	f
+bounds	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn bounds(mut self, bounds: [f64; 2]) -> Axis<'a> {$/;"	f
+cfmakeraw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/attr.rs	/^        pub fn cfmakeraw(termptr: *mut Termios);$/;"	f
+clear	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/mod.rs	/^    fn clear(&mut self) -> Result<(), io::Error>;$/;"	f
+clear	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    fn clear(&mut self) -> Result<(), io::Error> {$/;"	f
+clear	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    fn clear(&mut self) -> Result<(), io::Error> {$/;"	f
+clear	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn clear(&mut self) -> Result<(), io::Error> {$/;"	f
+color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/line.rs	/^    fn color(&self) -> Color {$/;"	f
+color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/map.rs	/^    fn color(&self) -> Color {$/;"	f
+color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    fn color(&self) -> Color;$/;"	f
+color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^    fn color(&self) -> Color {$/;"	f
+column_spacing	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^    pub fn column_spacing(&mut self, spacing: u16) -> &mut Table<'a> {$/;"	f
+compute_layout	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn compute_layout(&mut self, group: &Group, area: &Rect) -> Vec<Rect> {$/;"	f
+content	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn content(&self) -> &[Cell] {$/;"	f
+csi	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/macros.rs	/^macro_rules! csi {$/;"	d
+cursor_pos	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^    fn cursor_pos(&mut self) -> io::Result<(u16, u16)> {$/;"	f
+cursor_pos	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^    fn cursor_pos(&mut self) -> io::Result<(u16, u16)>;$/;"	f
+cvt	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/redox/mod.rs	/^fn cvt(result: Result<usize, syscall::Error>) -> io::Result<usize> {$/;"	f
+cvt	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/mod.rs	/^fn cvt<T: IsMinusOne>(t: T) -> io::Result<T> {$/;"	f
+data	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    pub fn data(&'a mut self, data: &'a [(&'a str, u64)]) -> &mut BarChart<'a> {$/;"	f
+data	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/map.rs	/^    fn data(&self) -> &'static [(f64, f64)] {$/;"	f
+data	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn data(mut self, data: &'a [(f64, f64)]) -> Dataset<'a> {$/;"	f
+data	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/sparkline.rs	/^    pub fn data(&mut self, data: &'a [u64]) -> &mut Sparkline<'a> {$/;"	f
+datasets	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn datasets(&mut self, datasets: &'a [Dataset<'a>]) -> &mut Chart<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^    fn default() -> Goto {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    fn default() -> Buffer {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    fn default() -> Cell {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    fn default() -> Group {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    fn default() -> Rect {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/style.rs	/^    fn default() -> Style {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    fn default() -> BarChart<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/block.rs	/^    fn default() -> Block<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/map.rs	/^    fn default() -> Map {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    fn default() -> Canvas<'a, F> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^    fn default() -> Points<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    fn default() -> Axis<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    fn default() -> Chart<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    fn default() -> ChartLayout {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    fn default() -> Dataset<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/gauge.rs	/^    fn default() -> Gauge<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    fn default() -> List<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    fn default() -> SelectableList<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    fn default() -> Paragraph<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/sparkline.rs	/^    fn default() -> Sparkline<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^    fn default() -> Table<'a> {$/;"	f
+default	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/tabs.rs	/^    fn default() -> Tabs<'a> {$/;"	f
+deref	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn deref(&self) -> &W {$/;"	f
+deref	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^    fn deref(&self) -> &W {$/;"	f
+deref	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^    fn deref(&self) -> &W {$/;"	f
+deref_mut	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn deref_mut(&mut self) -> &mut W {$/;"	f
+deref_mut	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^    fn deref_mut(&mut self) -> &mut W {$/;"	f
+deref_mut	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^    fn deref_mut(&mut self) -> &mut W {$/;"	f
+derive_color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^macro_rules! derive_color {$/;"	d
+derive_csi_sequence	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/macros.rs	/^macro_rules! derive_csi_sequence {$/;"	d
+detect_color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^fn detect_color(stdout: &mut Write, stdin: &mut Read, color: u16) -> io::Result<bool> {$/;"	f
+direction	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn direction(&mut self, direction: Direction) -> &mut Group {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/mod.rs	/^    fn draw<'a, I>(&mut self, content: I) -> Result<(), io::Error>$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    fn draw<'a, I>(&mut self, content: I) -> Result<(), io::Error>$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    fn draw<'a, I>(&mut self, content: I) -> Result<(), io::Error>$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn draw(&mut self) -> Result<(), io::Error> {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/block.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    pub fn draw<'b, S>(&mut self, shape: &'b S)$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/gauge.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer);$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/sparkline.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/tabs.rs	/^    fn draw(&self, area: &Rect, buf: &mut Buffer) {$/;"	f
+draw	/home/em/projects/termstuff/src/main.rs	/^fn draw(t: &mut Terminal<TermionBackend>, n: &mut u16) {$/;"	f
+drop	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn drop(&mut self) {$/;"	f
+drop	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^    fn drop(&mut self) {$/;"	f
+drop	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^    fn drop(&mut self) {$/;"	f
+empty	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn empty(area: Rect) -> Buffer {$/;"	f
+events	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn events(self) -> Events<Self> where Self: Sized;$/;"	f
+events	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn events(self) -> Events<Self> {$/;"	f
+events_and_raw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn events_and_raw(self) -> EventsAndRaw<Self> where Self: Sized;$/;"	f
+events_and_raw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn events_and_raw(self) -> EventsAndRaw<Self> {$/;"	f
+fg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/style.rs	/^    pub fn fg(mut self, color: Color) -> Style {$/;"	f
+filled	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn filled(area: Rect, cell: Cell) -> Buffer {$/;"	f
+finish	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    fn finish(&mut self) {$/;"	f
+flush	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn flush(&mut self) -> io::Result<()> {$/;"	f
+flush	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^    fn flush(&mut self) -> io::Result<()> {$/;"	f
+flush	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^    fn flush(&mut self) -> io::Result<()> {$/;"	f
+flush	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/mod.rs	/^    fn flush(&mut self) -> Result<(), io::Error>;$/;"	f
+flush	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    fn flush(&mut self) -> Result<(), io::Error> {$/;"	f
+flush	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    fn flush(&mut self) -> Result<(), io::Error> {$/;"	f
+flush	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn flush(&mut self) -> Result<(), io::Error> {$/;"	f
+fmt	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/cursor.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/macros.rs	/^            fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/scroll.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+from	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn from(mut from: W) -> MouseTerminal<W> {$/;"	f
+from	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^    pub fn from(mut output: W) -> Self {$/;"	f
+from	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^    fn from(data: &'a [(f64, f64)]) -> PointsIterator<'a> {$/;"	f
+get	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn get(&self, x: u16, y: u16) -> &Cell {$/;"	f
+get_mut	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn get_mut(&mut self, x: u16, y: u16) -> &mut Cell {$/;"	f
+get_terminal_attr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/redox/attr.rs	/^pub fn get_terminal_attr() -> io::Result<Termios> {$/;"	f
+get_terminal_attr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/attr.rs	/^pub fn get_terminal_attr() -> io::Result<Termios> {$/;"	f
+get_tty	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/redox/tty.rs	/^pub fn get_tty() -> io::Result<fs::File> {$/;"	f
+get_tty	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/tty.rs	/^pub fn get_tty() -> io::Result<fs::File> {$/;"	f
+grayscale	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^    pub fn grayscale(shade: u8) -> AnsiValue {$/;"	f
+header	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^    pub fn header(&mut self, header: &'a [&'a str]) -> &mut Table<'a> {$/;"	f
+header_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^    pub fn header_style(&mut self, style: Style) -> &mut Table<'a> {$/;"	f
+hide_cursor	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/mod.rs	/^    fn hide_cursor(&mut self) -> Result<(), io::Error>;$/;"	f
+hide_cursor	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    fn hide_cursor(&mut self) -> Result<(), io::Error> {$/;"	f
+hide_cursor	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    fn hide_cursor(&mut self) -> Result<(), io::Error> {$/;"	f
+hide_cursor	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn hide_cursor(&mut self) -> Result<(), io::Error> {$/;"	f
+highlight_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    pub fn highlight_style(&'a mut self, highlight_style: Style) -> &mut SelectableList<'a> {$/;"	f
+highlight_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/tabs.rs	/^    pub fn highlight_style(&mut self, style: Style) -> &mut Tabs<'a> {$/;"	f
+highlight_symbol	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    pub fn highlight_symbol(&'a mut self, highlight_symbol: &'a str) -> &mut SelectableList<'a> {$/;"	f
+impl_is_minus_one	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/mod.rs	/^macro_rules! impl_is_minus_one {$/;"	d
+index_of	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn index_of(&self, x: u16, y: u16) -> usize {$/;"	f
+inner	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn inner(&self, margin: u16) -> Rect {$/;"	f
+inner	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/block.rs	/^    pub fn inner(&self, area: &Rect) -> Rect {$/;"	f
+intersection	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn intersection(&self, other: &Rect) -> Rect {$/;"	f
+intersects	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn intersects(&self, other: &Rect) -> bool {$/;"	f
+into	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    fn into(self) -> rustbox::Color {$/;"	f
+into	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    fn into(self) -> rustbox::Style {$/;"	f
+into_iter	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/line.rs	/^    fn into_iter(self) -> Self::IntoIter {$/;"	f
+into_iter	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/map.rs	/^    fn into_iter(self) -> Self::IntoIter {$/;"	f
+into_iter	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^    fn into_iter(self) -> Self::IntoIter {$/;"	f
+into_raw_mode	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^    fn into_raw_mode(self) -> io::Result<RawTerminal<Self>>;$/;"	f
+into_raw_mode	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^    fn into_raw_mode(self) -> io::Result<RawTerminal<W>> {$/;"	f
+is_minus_one	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/mod.rs	/^            fn is_minus_one(&self) -> bool {$/;"	f
+is_minus_one	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/mod.rs	/^    fn is_minus_one(&self) -> bool;$/;"	f
+is_tty	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/redox/tty.rs	/^pub fn is_tty<T: AsRawFd>(stream: &T) -> bool {$/;"	f
+is_tty	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/tty.rs	/^pub fn is_tty<T: AsRawFd>(stream: &T) -> bool {$/;"	f
+items	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    pub fn items<I>(&'a mut self, items: &'a [(I, &'a Style)]) -> &mut List<'a>$/;"	f
+items	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    pub fn items<I>(&'a mut self, items: &'a [I]) -> &mut SelectableList<'a>$/;"	f
+keys	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn keys(self) -> Keys<Self> where Self: Sized;$/;"	f
+keys	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn keys(self) -> Keys<Self> {$/;"	f
+label	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/gauge.rs	/^    pub fn label(&mut self, string: &'a str) -> &mut Gauge<'a> {$/;"	f
+label_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    pub fn label_style(&'a mut self, style: Style) -> &mut BarChart<'a> {$/;"	f
+labels	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn labels(mut self, labels: &'a [&'a str]) -> Axis<'a> {$/;"	f
+labels_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn labels_style(mut self, style: Style) -> Axis<'a> {$/;"	f
+layer	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    pub fn layer(&mut self) {$/;"	f
+layout	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    fn layout(&self, area: &Rect) -> ChartLayout {$/;"	f
+left	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    fn left(&self) -> Variable {$/;"	f
+left	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn left(&self) -> u16 {$/;"	f
+line	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/symbols.rs	/^pub mod line {$/;"	m
+line_match	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn line_match(a: &str, b: Option<&str>) {$/;"	f
+main	/home/em/projects/termstuff/src/main.rs	/^fn main() {$/;"	f
+margin	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn margin(&mut self, margin: u16) -> &mut Group {$/;"	f
+marker	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn marker(mut self, marker: Marker) -> Dataset<'a> {$/;"	f
+max	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    pub fn max(&'a mut self, max: u64) -> &mut BarChart<'a> {$/;"	f
+max	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/sparkline.rs	/^    pub fn max(&mut self, max: u64) -> &mut Sparkline<'a> {$/;"	f
+merge	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn merge(&mut self, other: Buffer) {$/;"	f
+modifier	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/style.rs	/^    pub fn modifier(mut self, modifier: Modifier) -> Style {$/;"	f
+name	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn name(mut self, name: &'a str) -> Dataset<'a> {$/;"	f
+new	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    pub fn new() -> Result<RustboxBackend, rustbox::InitError> {$/;"	f
+new	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    pub fn new() -> Result<TermionBackend, io::Error> {$/;"	f
+new	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    fn new() -> Element {$/;"	f
+new	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn new(x: u16, y: u16, width: u16, height: u16) -> Rect {$/;"	f
+new	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn new(backend: B) -> Result<Terminal<B>, io::Error> {$/;"	f
+new	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    fn new(width: usize, height: usize) -> Grid {$/;"	f
+new	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    fn new(text: T, base_style: Style) -> Parser<'a, T> {$/;"	f
+next	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn next(&mut self) -> Option<Result<(Event, Vec<u8>), io::Error>> {$/;"	f
+next	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn next(&mut self) -> Option<Result<Event, io::Error>> {$/;"	f
+next	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn next(&mut self) -> Option<Result<Key, io::Error>> {$/;"	f
+next	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/line.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+next	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+next	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+paint	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    pub fn paint(&mut self, f: F) -> &mut Canvas<'a, F> {$/;"	f
+parse_csi	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/event.rs	/^fn parse_csi<I>(iter: &mut I) -> Option<Event>$/;"	f
+parse_event	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/event.rs	/^pub fn parse_event<I>(item: u8, iter: &mut I) -> Result<Event, Error>$/;"	f
+parse_event	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^fn parse_event<I>(item: u8, iter: &mut I) -> Result<(Event, Vec<u8>), io::Error>$/;"	f
+parse_utf8_char	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/event.rs	/^fn parse_utf8_char<I>(c: u8, iter: &mut I) -> Result<char, Error>$/;"	f
+percent	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/gauge.rs	/^    pub fn percent(&mut self, percent: u16) -> &mut Gauge<'a> {$/;"	f
+points	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/line.rs	/^    fn points(&'a self) -> Box<Iterator<Item = (f64, f64)> + 'a> {$/;"	f
+points	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/map.rs	/^    fn points(&'a self) -> Box<Iterator<Item = (f64, f64)> + 'a> {$/;"	f
+points	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    fn points(&'a self) -> Box<Iterator<Item = (f64, f64)> + 'a>;$/;"	f
+points	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/points.rs	/^    fn points(&'a self) -> Box<Iterator<Item = (f64, f64)> + 'a> {$/;"	f
+pos_of	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn pos_of(&self, i: usize) -> (u16, u16) {$/;"	f
+print	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    pub fn print(&mut self, x: f64, y: f64, text: &'a str, color: Color) {$/;"	f
+raw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    pub fn raw(&mut self, flag: bool) -> &mut Paragraph<'a> {$/;"	f
+raw_terminal_attr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/redox/attr.rs	/^pub fn raw_terminal_attr(ios: &mut Termios) {$/;"	f
+raw_terminal_attr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/attr.rs	/^pub fn raw_terminal_attr(termios: &mut Termios) {$/;"	f
+read	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/async.rs	/^    fn read(&mut self, buf: &mut [u8]) -> io::Result<usize> {$/;"	f
+read_line	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn read_line(&mut self) -> io::Result<Option<String>> {$/;"	f
+read_line	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn read_line(&mut self) -> io::Result<Option<String>>;$/;"	f
+read_passwd	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn read_passwd<W: Write>(&mut self, writer: &mut W) -> io::Result<Option<String>> {$/;"	f
+render	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn render<F, B>(&self, t: &mut Terminal<B>, area: &Rect, mut f: F)$/;"	f
+render	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn render<W>(&mut self, widget: &W, area: &Rect)$/;"	f
+render	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/mod.rs	/^    fn render<B>(&self, t: &mut Terminal<B>, area: &Rect)$/;"	f
+reset	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn reset(&mut self) {$/;"	f
+reset	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/style.rs	/^    pub fn reset(&mut self) {$/;"	f
+reset	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    fn reset(&mut self) {$/;"	f
+reset	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    fn reset(&mut self) {$/;"	f
+resize	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn resize(&mut self, area: Rect) {$/;"	f
+resize	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn resize(&mut self, area: Rect) -> Result<(), io::Error> {$/;"	f
+rgb	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^    pub fn rgb(r: u8, g: u8, b: u8) -> AnsiValue {$/;"	f
+rgb_to_byte	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^fn rgb_to_byte(r: u8, g: u8, b: u8) -> u16 {$/;"	f
+right	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    fn right(&self) -> Expression {$/;"	f
+right	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn right(&self) -> u16 {$/;"	f
+rows	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^    pub fn rows<S, R>(&mut self, rows: &'a [(R, &'a Style)]) -> &mut Table<'a>$/;"	f
+rustbox	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    pub fn rustbox(&self) -> &rustbox::RustBox {$/;"	f
+save	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    fn save(&self) -> Layer {$/;"	f
+scroll	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    pub fn scroll(&mut self, offset: u16) -> &mut Paragraph<'a> {$/;"	f
+select	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    pub fn select(&'a mut self, index: usize) -> &'a mut SelectableList<'a> {$/;"	f
+select	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/tabs.rs	/^    pub fn select(&mut self, selected: usize) -> &mut Tabs<'a> {$/;"	f
+set_bg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn set_bg(&mut self, color: Color) -> &mut Cell {$/;"	f
+set_char	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn set_char(&mut self, ch: char) -> &mut Cell {$/;"	f
+set_fg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn set_fg(&mut self, color: Color) -> &mut Cell {$/;"	f
+set_modifier	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn set_modifier(&mut self, modifier: Modifier) -> &mut Cell {$/;"	f
+set_string	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn set_string(&mut self, x: u16, y: u16, string: &str, style: &Style) {$/;"	f
+set_stringn	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn set_stringn(&mut self, x: u16, y: u16, string: &str, limit: usize, style: &Style) {$/;"	f
+set_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn set_style(&mut self, style: Style) -> &mut Cell {$/;"	f
+set_symbol	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/buffer.rs	/^    pub fn set_symbol(&mut self, symbol: &str) -> &mut Cell {$/;"	f
+set_terminal_attr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/redox/attr.rs	/^pub fn set_terminal_attr(termios: &Termios) -> io::Result<()> {$/;"	f
+set_terminal_attr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/attr.rs	/^pub fn set_terminal_attr(termios: &Termios) -> io::Result<()> {$/;"	f
+show_cursor	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/mod.rs	/^    fn show_cursor(&mut self) -> Result<(), io::Error>;$/;"	f
+show_cursor	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    fn show_cursor(&mut self) -> Result<(), io::Error> {$/;"	f
+show_cursor	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    fn show_cursor(&mut self) -> Result<(), io::Error> {$/;"	f
+show_cursor	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn show_cursor(&mut self) -> Result<(), io::Error> {$/;"	f
+size	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/mod.rs	/^    fn size(&self) -> Result<Rect, io::Error>;$/;"	f
+size	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    fn size(&self) -> Result<Rect, io::Error> {$/;"	f
+size	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    fn size(&self) -> Result<Rect, io::Error> {$/;"	f
+size	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/terminal.rs	/^    pub fn size(&self) -> Result<Rect, io::Error> {$/;"	f
+sizes	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn sizes(&mut self, sizes: &[Size]) -> &mut Group {$/;"	f
+split	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^pub fn split(area: &Rect, dir: &Direction, margin: u16, sizes: &[Size]) -> Vec<Rect> {$/;"	f
+str_to_color	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    fn str_to_color(string: &str) -> Color {$/;"	f
+str_to_modifier	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    fn str_to_modifier(string: &str) -> Modifier {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    pub fn style(&'a mut self, style: Style) -> &mut BarChart<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/block.rs	/^    pub fn style(mut self, style: Style) -> Block<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn style(&mut self, style: Style) -> &mut Chart<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn style(mut self, style: Style) -> Axis<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn style(mut self, style: Style) -> Dataset<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/gauge.rs	/^    pub fn style(&mut self, style: Style) -> &mut Gauge<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    pub fn style(&'a mut self, style: Style) -> &mut List<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/list.rs	/^    pub fn style(&'a mut self, style: Style) -> &mut SelectableList<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    pub fn style(&mut self, style: Style) -> &mut Paragraph<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/sparkline.rs	/^    pub fn style(&mut self, style: Style) -> &mut Sparkline<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^    pub fn style(&mut self, style: Style) -> &mut Table<'a> {$/;"	f
+style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/tabs.rs	/^    pub fn style(&mut self, style: Style) -> &mut Tabs<'a> {$/;"	f
+tcgetattr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/attr.rs	/^        pub fn tcgetattr(fd: c_int, termptr: *mut Termios) -> c_int;$/;"	f
+tcsetattr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/attr.rs	/^        pub fn tcsetattr(fd: c_int, opt: c_int, termptr: *const Termios) -> c_int;$/;"	f
+terminal_size	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/redox/size.rs	/^pub fn terminal_size() -> io::Result<(u16, u16)> {$/;"	f
+terminal_size	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/size.rs	/^pub fn terminal_size() -> io::Result<(u16, u16)> {$/;"	f
+termion_bg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    pub fn termion_bg(&self) -> String {$/;"	f
+termion_bg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^macro_rules! termion_bg {$/;"	d
+termion_bg_rgb	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^macro_rules! termion_bg_rgb {$/;"	d
+termion_fg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    pub fn termion_fg(&self) -> String {$/;"	f
+termion_fg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^macro_rules! termion_fg {$/;"	d
+termion_fg_rgb	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^macro_rules! termion_fg_rgb {$/;"	d
+termion_modifier	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^    pub fn termion_modifier(&self) -> String {$/;"	f
+termion_modifier	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/termion.rs	/^macro_rules! termion_modifier {$/;"	d
+test	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/async.rs	/^mod test {$/;"	m
+test	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^mod test {$/;"	m
+test	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/lib.rs	/^mod test {$/;"	m
+test	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^mod test {$/;"	m
+test_abort	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_abort() {$/;"	f
+test_async_stdin	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/async.rs	/^    fn test_async_stdin() {$/;"	f
+test_backspace	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_backspace() {$/;"	f
+test_end	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_end() {$/;"	f
+test_esc_key	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_esc_key() {$/;"	f
+test_events	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_events() {$/;"	f
+test_events_and_raw	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_events_and_raw() {$/;"	f
+test_function_keys	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_function_keys() {$/;"	f
+test_get_terminal_attr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/lib.rs	/^    fn test_get_terminal_attr() {$/;"	f
+test_into_raw_mode	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^    fn test_into_raw_mode() {$/;"	f
+test_keys	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_keys() {$/;"	f
+test_parse_utf8	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/event.rs	/^fn test_parse_utf8() {$/;"	f
+test_read	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_read() {$/;"	f
+test_set_terminal_attr	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/lib.rs	/^    fn test_set_terminal_attr() {$/;"	f
+test_size	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/lib.rs	/^    fn test_size() {$/;"	f
+test_special_keys	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn test_special_keys() {$/;"	f
+text	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    pub fn text(&mut self, text: &'a str) -> &mut Paragraph<'a> {$/;"	f
+tiocgwinsz	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/size.rs	/^fn tiocgwinsz() -> i32 {$/;"	f
+tiocgwinsz	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/size.rs	/^fn tiocgwinsz() -> u32 {$/;"	f
+tiocgwinsz	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/sys/unix/size.rs	/^fn tiocgwinsz() -> u64 {$/;"	f
+title	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/block.rs	/^    pub fn title(mut self, title: &'a str) -> Block<'a> {$/;"	f
+title	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn title(mut self, title: &'a str) -> Axis<'a> {$/;"	f
+title_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/block.rs	/^    pub fn title_style(mut self, style: Style) -> Block<'a> {$/;"	f
+title_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn title_style(mut self, style: Style) -> Axis<'a> {$/;"	f
+titles	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/tabs.rs	/^    pub fn titles(&mut self, titles: &'a [&'a str]) -> &mut Tabs<'a> {$/;"	f
+top	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    fn top(&self) -> Variable {$/;"	f
+top	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn top(&self) -> u16 {$/;"	f
+union	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/layout.rs	/^    pub fn union(&self, other: &Rect) -> Rect {$/;"	f
+update_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    fn update_style(&mut self) {$/;"	f
+value_style	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/barchart.rs	/^    pub fn value_style(&'a mut self, style: Style) -> &mut BarChart<'a> {$/;"	f
+widths	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/table.rs	/^    pub fn widths(&mut self, widths: &'a [u16]) -> &mut Table<'a> {$/;"	f
+with_rustbox	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/backend/rustbox.rs	/^    pub fn with_rustbox(instance: rustbox::RustBox) -> RustboxBackend {$/;"	f
+wrap	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/paragraph.rs	/^    pub fn wrap(&mut self, flag: bool) -> &mut Paragraph<'a> {$/;"	f
+write	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/input.rs	/^    fn write(&mut self, buf: &[u8]) -> io::Result<usize> {$/;"	f
+write	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/raw.rs	/^    fn write(&mut self, buf: &[u8]) -> io::Result<usize> {$/;"	f
+write	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/screen.rs	/^    fn write(&mut self, buf: &[u8]) -> io::Result<usize> {$/;"	f
+write_bg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^            fn write_bg(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+write_bg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^    fn write_bg(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+write_bg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^    fn write_bg(&self, f: &mut fmt::Formatter) -> fmt::Result;$/;"	f
+write_fg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^            fn write_fg(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+write_fg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^    fn write_fg(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+write_fg	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/termion-1.5.1/src/color.rs	/^    fn write_fg(&self, f: &mut fmt::Formatter) -> fmt::Result;$/;"	f
+x_axis	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn x_axis(&mut self, axis: Axis<'a>) -> &mut Chart<'a> {$/;"	f
+x_bounds	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    pub fn x_bounds(&mut self, bounds: [f64; 2]) -> &mut Canvas<'a, F> {$/;"	f
+y_axis	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/chart.rs	/^    pub fn y_axis(&mut self, axis: Axis<'a>) -> &mut Chart<'a> {$/;"	f
+y_bounds	/home/em/.cargo/registry/src/github.com-1ecc6299db9ec823/tui-0.1.3/src/widgets/canvas/mod.rs	/^    pub fn y_bounds(&mut self, bounds: [f64; 2]) -> &mut Canvas<'a, F> {$/;"	f

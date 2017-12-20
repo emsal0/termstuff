@@ -1,0 +1,8 @@
+[package]
+name = "termstuff"
+version = "0.1.0"
+authors = ["Emmanuel Sales <absolutezero2a03@gmail.com>"]
+
+[dependencies]
+tui = "0.1.3"
+termion = "1.4.0"
