@@ -77,7 +77,7 @@ fn main() {
             thread::sleep(time::Duration::from_secs(1));
             let mut lState = state.lock().unwrap();
             let mut lTerm = term.lock().unwrap();
-            let newDirection = match (*lState).direction {
+            let newDirection = match lState.direction {
                 Direction::Vertical => Direction::Horizontal,
                 Direction::Horizontal => Direction::Vertical,
             };
@@ -89,19 +89,22 @@ fn main() {
     let state2 = Arc::clone(&appState);
     let term2 = Arc::clone(&terminal);
 
-    let mut eState = state2.lock().unwrap();
-    let mut eTerm = term2.lock().unwrap();
-    for c in stdin.keys() {
-        let evt = c.unwrap();
-        if evt == event::Key::Char('q') {
-            break;
-        } else if evt == event::Key::Char('a') {
-            eState.numWindows = min(10, eState.numWindows + 1);
-        } else if evt == event::Key::Char('r') {
-            eState.numWindows = max(1, eState.numWindows - 1);
-        }
-        draw(&mut eTerm, &mut eState);
-    }
+    let addWindowThread = thread::spawn(move || {
+        let mut eState = state2.lock().unwrap();
+        let mut eTerm = term2.lock().unwrap();
 
-    eTerm.clear().unwrap();
+        for c in stdin.keys() {
+            let evt = c.unwrap();
+            if evt == event::Key::Char('q') {
+                break;
+            } else if evt == event::Key::Char('a') {
+                eState.numWindows = min(10, eState.numWindows + 1);
+            } else if evt == event::Key::Char('r') {
+                eState.numWindows = max(1, eState.numWindows - 1);
+            }
+            draw(&mut eTerm, &mut eState);
+        }
+    });
+
+    loop{}
 }
