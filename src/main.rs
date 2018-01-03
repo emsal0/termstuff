@@ -83,6 +83,7 @@ fn main() {
             };
             lState.direction = newDirection;
             draw(&mut lTerm, &mut lState);
+            thread::yield_now();
         }
     });
 
@@ -90,10 +91,11 @@ fn main() {
     let term2 = Arc::clone(&terminal);
 
     let addWindowThread = thread::spawn(move || {
-        let mut eState = state2.lock().unwrap();
-        let mut eTerm = term2.lock().unwrap();
 
         for c in stdin.keys() {
+            let mut eState = state2.lock().unwrap();
+            let mut eTerm = term2.lock().unwrap();
+
             let evt = c.unwrap();
             if evt == event::Key::Char('q') {
                 break;
@@ -103,6 +105,7 @@ fn main() {
                 eState.numWindows = max(1, eState.numWindows - 1);
             }
             draw(&mut eTerm, &mut eState);
+            thread::yield_now();
         }
     });
 
