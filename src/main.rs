@@ -6,12 +6,11 @@ use std::io;
 use termion::event;
 use termion::input::TermRead;
 
+use std::sync::mpsc;
 use std::thread;
 use std::sync::{Arc, Mutex};
 
-use rand::Rng;
 use std::time;
-
 use std::iter::FromIterator;
 
 use std::cmp::{max, min};
@@ -70,10 +69,17 @@ fn main() {
     let state = Arc::clone(&appState);
     let term = Arc::clone(&terminal);
 
+    let (tx, rx) = mpsc::channel();
+
     term.lock().unwrap().clear().unwrap();
     draw(&mut term.lock().unwrap(), &mut state.lock().unwrap());
+
     let directionSwitcherThread = thread::spawn(move || {
         loop {
+            let val = rx.recv().unwrap();
+            if (val) {
+                break;
+            }
             thread::sleep(time::Duration::from_secs(1));
             let mut lState = state.lock().unwrap();
             let mut lTerm = term.lock().unwrap();
@@ -91,6 +97,7 @@ fn main() {
     let term2 = Arc::clone(&terminal);
 
     let addWindowThread = thread::spawn(move || {
+        let tx = tx.clone();
 
         for c in stdin.keys() {
             let mut eState = state2.lock().unwrap();
@@ -98,16 +105,18 @@ fn main() {
 
             let evt = c.unwrap();
             if evt == event::Key::Char('q') {
+                tx.send(true);
                 break;
             } else if evt == event::Key::Char('a') {
                 eState.numWindows = min(10, eState.numWindows + 1);
             } else if evt == event::Key::Char('r') {
                 eState.numWindows = max(1, eState.numWindows - 1);
             }
+            tx.send(false);
             draw(&mut eTerm, &mut eState);
             thread::yield_now();
         }
     });
 
-    loop{}
+    loop { }
 }
