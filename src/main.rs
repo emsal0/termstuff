@@ -17,7 +17,7 @@ use std::cmp::{max, min};
 
 use tui::Terminal;
 use tui::backend::TermionBackend;
-use tui::widgets::{Widget, Block, border};
+use tui::widgets::{Widget, Block, border, Paragraph};
 use tui::layout::{Group, Size, Direction};
 
 struct AppState {
@@ -39,10 +39,10 @@ fn draw(t: &mut Terminal<TermionBackend>, state: &mut AppState) {
         .margin(1)
         .sizes(&block_sizes)
         .render(t, &size, |t, chunks| {
-            for chunk in chunks {
-                Block::default()
-                    .title("Block")
-                    .borders(border::ALL)
+            for (i, chunk) in chunks.iter().enumerate() {
+                Paragraph::default()
+                    .text("Block")
+                    .block(Block::default().borders(border::ALL).title(&format!("Paragraph {}", i)))
                     .render(t, chunk);
             }
         });
@@ -123,7 +123,7 @@ fn main() {
 
     loop {
         let val = rx.recv().unwrap();
-        if (val) {
+        if val {
             break;
         }
     }
