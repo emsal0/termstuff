@@ -99,15 +99,15 @@ fn main() {
         }
     });
 
-    let state2 = Arc::clone(&appState);
-    let term2 = Arc::clone(&terminal);
+    let state = Arc::clone(&appState);
+    let term = Arc::clone(&terminal);
 
     let addWindowThread = thread::spawn(move || {
         let tx = tx.clone();
 
         for c in stdin.keys() {
-            let mut eState = state2.lock().unwrap();
-            let mut eTerm = term2.lock().unwrap();
+            let mut eState = state.lock().unwrap();
+            let mut eTerm = term.lock().unwrap();
 
             let evt = c.unwrap();
             if evt == event::Key::Char('q') {
@@ -130,5 +130,7 @@ fn main() {
         }
     }
     let term = Arc::clone(&terminal);
-    term.lock().unwrap().clear().unwrap();
+    let mut t = term.lock().unwrap();
+    t.show_cursor().unwrap();
+    t.clear().unwrap();
 }
