@@ -8,33 +8,31 @@ use std::io;
 use termion::event;
 use termion::input::TermRead;
 
-use std::sync::mpsc;
 use std::thread;
 use std::sync::{Arc, Mutex};
 
 use std::time;
-use std::iter::FromIterator;
 
 use std::cmp::{max, min};
 
 use tui::Terminal;
 use tui::backend::TermionBackend;
 use tui::widgets::{Widget, Block, border};
-use tui::layout::{Group, Size, Rect, Direction};
+use tui::layout::{Group, Size, Direction};
 
 struct AppState {
-    numWindows: u16,
+    num_windows: u16,
     direction: tui::layout::Direction,
 }
 
 fn draw(t: &mut Terminal<TermionBackend>, state: &mut AppState) {
     let size = t.size().unwrap();
 
-    let stateVal = &*state;
+    let state_val = &*state;
 
-    let p = 100 / stateVal.numWindows;
+    let p = 100 / state_val.num_windows;
 
-    let block_sizes: Vec<tui::layout::Size> = (0..stateVal.numWindows).map(|g| Size::Percent(p)).collect();
+    let block_sizes: Vec<tui::layout::Size> = (0..state_val.num_windows).map(|_| Size::Percent(p)).collect();
 
     Group::default()
         .direction(state.direction.clone())
@@ -60,15 +58,15 @@ fn main() {
 
     let mut terminal = Terminal::new(backend).unwrap();
     let mut num_blocks = 1;
-    let mut appState = AppState {
-        numWindows: 1,
+    let mut app_state = AppState {
+        num_windows: 1,
         direction: Direction::Vertical,
     };
 
     let terminal = Arc::new(Mutex::new(terminal));
-    let appState = Arc::new(Mutex::new(appState));
+    let app_state = Arc::new(Mutex::new(app_state));
 
-    let state = Arc::clone(&appState);
+    let state = Arc::clone(&app_state);
     let term = Arc::clone(&terminal);
 
     let (tx, rx) = chan::sync(0);
@@ -77,19 +75,19 @@ fn main() {
     draw(&mut term.lock().unwrap(), &mut state.lock().unwrap());
 
     let rx2 = rx.clone();
-    let directionSwitcherThread = thread::spawn(move || {
+    thread::spawn(move || {
         loop {
             chan_select! {
                 default => {
                     thread::sleep(time::Duration::from_secs(1));
-                    let mut lState = state.lock().unwrap();
-                    let mut lTerm = term.lock().unwrap();
-                    let newDirection = match lState.direction {
+                    let mut lstate = state.lock().unwrap();
+                    let mut lterm = term.lock().unwrap();
+                    let new_direction = match lstate.direction {
                         Direction::Vertical => Direction::Horizontal,
                         Direction::Horizontal => Direction::Vertical,
                     };
-                    lState.direction = newDirection;
-                    draw(&mut lTerm, &mut lState);
+                    lstate.direction = new_direction;
+                    draw(&mut lterm, &mut lstate);
                     thread::yield_now();
                 },
                 rx2.recv() => {
@@ -99,26 +97,26 @@ fn main() {
         }
     });
 
-    let state = Arc::clone(&appState);
+    let state = Arc::clone(&app_state);
     let term = Arc::clone(&terminal);
 
-    let addWindowThread = thread::spawn(move || {
+    thread::spawn(move || {
         let tx = tx.clone();
 
         for c in stdin.keys() {
-            let mut eState = state.lock().unwrap();
-            let mut eTerm = term.lock().unwrap();
+            let mut estate = state.lock().unwrap();
+            let mut eterm = term.lock().unwrap();
 
             let evt = c.unwrap();
             if evt == event::Key::Char('q') {
                 tx.send(true);
                 break;
             } else if evt == event::Key::Char('a') {
-                eState.numWindows = min(10, eState.numWindows + 1);
+                estate.num_windows = min(10, estate.num_windows + 1);
             } else if evt == event::Key::Char('r') {
-                eState.numWindows = max(1, eState.numWindows - 1);
+                estate.num_windows = max(1, estate.num_windows - 1);
             }
-            draw(&mut eTerm, &mut eState);
+            draw(&mut eterm, &mut estate);
             thread::yield_now();
         }
     });
