@@ -1,3 +1,4 @@
+extern crate chan;
 extern crate termion;
 extern crate tui;
 extern crate rand;
@@ -69,14 +70,15 @@ fn main() {
     let state = Arc::clone(&appState);
     let term = Arc::clone(&terminal);
 
-    let (tx, rx) = mpsc::channel();
+    let (tx, rx) = chan::sync(2);
 
     term.lock().unwrap().clear().unwrap();
     draw(&mut term.lock().unwrap(), &mut state.lock().unwrap());
 
+    let rx2 = rx.clone();
     let directionSwitcherThread = thread::spawn(move || {
         loop {
-            let val = rx.recv().unwrap();
+            let val = rx2.recv().unwrap();
             if (val) {
                 break;
             }
@@ -118,5 +120,10 @@ fn main() {
         }
     });
 
-    loop { }
+    loop {
+        let val = rx.recv().unwrap();
+        if (val) {
+            break;
+        }
+    }
 }
