@@ -1,3 +1,4 @@
+#[macro_use]
 extern crate chan;
 extern crate termion;
 extern crate tui;
@@ -70,7 +71,7 @@ fn main() {
     let state = Arc::clone(&appState);
     let term = Arc::clone(&terminal);
 
-    let (tx, rx) = chan::sync(2);
+    let (tx, rx) = chan::sync(0);
 
     term.lock().unwrap().clear().unwrap();
     draw(&mut term.lock().unwrap(), &mut state.lock().unwrap());
@@ -78,20 +79,23 @@ fn main() {
     let rx2 = rx.clone();
     let directionSwitcherThread = thread::spawn(move || {
         loop {
-            let val = rx2.recv().unwrap();
-            if (val) {
-                break;
+            chan_select! {
+                default => {
+                    thread::sleep(time::Duration::from_secs(1));
+                    let mut lState = state.lock().unwrap();
+                    let mut lTerm = term.lock().unwrap();
+                    let newDirection = match lState.direction {
+                        Direction::Vertical => Direction::Horizontal,
+                        Direction::Horizontal => Direction::Vertical,
+                    };
+                    lState.direction = newDirection;
+                    draw(&mut lTerm, &mut lState);
+                    thread::yield_now();
+                },
+                rx2.recv() => {
+                    return;
+                },
             }
-            thread::sleep(time::Duration::from_secs(1));
-            let mut lState = state.lock().unwrap();
-            let mut lTerm = term.lock().unwrap();
-            let newDirection = match lState.direction {
-                Direction::Vertical => Direction::Horizontal,
-                Direction::Horizontal => Direction::Vertical,
-            };
-            lState.direction = newDirection;
-            draw(&mut lTerm, &mut lState);
-            thread::yield_now();
         }
     });
 
@@ -114,7 +118,6 @@ fn main() {
             } else if evt == event::Key::Char('r') {
                 eState.numWindows = max(1, eState.numWindows - 1);
             }
-            tx.send(false);
             draw(&mut eTerm, &mut eState);
             thread::yield_now();
         }
@@ -126,4 +129,6 @@ fn main() {
             break;
         }
     }
+    let term = Arc::clone(&terminal);
+    term.lock().unwrap().clear().unwrap();
 }
